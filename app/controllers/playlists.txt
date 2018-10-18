@@ -1,0 +1,32 @@
+=> {"Yes"=>"PLPyrVkpQf_iraChFiHaTIQ5H_B7Dpq9O2",
+ "maybe"=>"PLPyrVkpQf_iqluzu9P2t_xcLHlCa6EV4s",
+ "Wrong"=>"PLPyrVkpQf_ioyBJYw7MakUvoY8ixM2Vgq",
+ "trailers 4"=>"PLPyrVkpQf_iqcegximfCdtkJASyRcdTMt",
+ "trailers 3"=>"PLPyrVkpQf_iq-l54INViV5XAPtAjqDhic",
+ "trailers 2"=>"PLPyrVkpQf_ioK7XU18Ujb5YXdDrER4UXs",
+ "trailers"=>"PLPyrVkpQf_irwXo7BQbSyli60g_3TOdYx",
+ "EmbracIngPhotography Student"=>"PLPyrVkpQf_irsRJO8EWkyM_z7gvF-82Cq",
+ "Art History"=>"PLPyrVkpQf_irmzNScwOA3_ZEZINs7y3Tk",
+ "Art Unspecified"=>"PLPyrVkpQf_ioXNB6owz0B7GTtaZa8xLDs",
+ "Photography History"=>"PLPyrVkpQf_iqoSH0Zhyxpbo0svLHv9cgr",
+ "New Image Tech"=>"PLPyrVkpQf_iorizvwIXflUSIlD396C28j",
+ "HDR"=>"PLPyrVkpQf_ir5NXEKb1G_rfJrr3KjWlHJ",
+ "Kodak Laser Projector - Optical System"=>"PLPyrVkpQf_ire4WA8_3ZTw0gHFqc8Khib",
+ "Google Tech"=>"PLPyrVkpQf_ip2Knfusd3jV_IoJOLL3Qlf",
+ "Light Painting :)"=>"PLPyrVkpQf_irSVl9Jye7oHvKMej493nbW"}
+ 
+ 
+ 
+  "trailers 4"=>"PLPyrVkpQf_iqcegximfCdtkJASyRcdTMt",
+  "trailers 3"=>"PLPyrVkpQf_iq-l54INViV5XAPtAjqDhic",
+  "trailers 2"=>"PLPyrVkpQf_ioK7XU18Ujb5YXdDrER4UXs",
+ 
+ 
+ client.playlist("PLPyrVkpQf_iqcegximfCdtkJASyRcdTMt")
+ client.playlist("PLPyrVkpQf_iq-l54INViV5XAPtAjqDhic")
+ client.playlist("PLPyrVkpQf_ioK7XU18Ujb5YXdDrER4UXs")
+ 
+ 
+ f = File.new("out.xml", "w")
+ f.write(p1.xml)  
+f.close 

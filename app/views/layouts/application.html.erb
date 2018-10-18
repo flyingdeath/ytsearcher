@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ytsearcher</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "functions.js"%>
+  <%= javascript_include_tag "main.js"%>
+  <%= javascript_include_tag "jquery/js/jquery-1.9.1.js" %>
+  <%= javascript_include_tag "jquery/js/jquery-ui-1.10.1.custom.min.js" %>
+  <%= stylesheet_link_tag    "jquery/css/ui-darkness/jquery-ui-1.10.1.custom.css"%>
+  
+    <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

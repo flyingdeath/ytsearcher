@@ -1,0 +1,5 @@
+<%= form_tag(:action => 'auth_finish') do|f| %>
+<a target="blank" href="<%=@auth_url%>"> Authorize Link</a>
+<%= text_field_tag(:code) %>
+<%= submit_tag %>
+<%- end %>

@@ -1,0 +1,16 @@
+
+
+<%= javascript_tag  do -%>
+  function metaData(){
+    return {
+            <% c = 1 %>
+              <% @list.each{|term,iList| %>
+                <% iList.each{|listItem| %>
+                 '<%=listItem.last%>':<%= (render :partial => "metaDataItem", 
+                                                  :locals => {:listItem => listItem}).to_json.html_safe %><%= "," if c <= @total_items %>
+                 <% c +=1 %>
+               <% } %>
+            <% } %>
+           };
+  }
+<% end -%>

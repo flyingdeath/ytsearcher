@@ -1,0 +1,182 @@
+
+/*--------------------------------------------*/
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+#search_area {
+
+    top: 25px;
+    position: relative;
+
+}
+
+.leftPanel {
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    z-index: 10;
+}
+.searchPanel {
+    display: inline-block;
+}
+.resultsPanel {
+    display: inline-block;
+    height: 100%;
+    left: 300px;
+    overflow: visible;
+    position: absolute;
+    top: 50px;
+    width: 450px;
+}
+.resultslist {
+    height: 877px;
+    overflow: auto;
+    position: relative;
+    top: 23px;
+}
+.videoPanel {
+    left: 825px;
+    position: absolute;
+    top: 25%;
+    z-index: 100;
+    /*z-index: -1;*/
+}
+/*--------------------------------------------*/
+textarea {
+    background-color: #000;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 23px;
+    overflow: auto;
+}
+select {
+    display: inline-block;
+    font-size: 14px;
+    width: 300px;
+}
+iframe {
+    z-index: -1;
+}
+/*--------------------------------------------*/
+.btn, .lrgBtn, .cueBtn {
+    -moz-appearance: button;
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+.btn {
+    width: 30px;
+    color: #000;
+}
+.lrgBtn {
+    width: 100px;
+}
+a.btn:link, a.btn:visited, a.btn:active, a.lrgBtn:link, a.lrgBtn:visited, a.lrgBtn:active, a.cueBtn:link, a.cueBtn:visited, a.cueBtn:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.lineIndex {
+    font-family: arial;
+    z-index: 1;
+}
+/*--------------------------------------------*/
+.guideContainer {
+    background-color: #333333;
+    height: 877px;
+    left: 375px;
+    overflow: visible;
+    position: absolute;
+    top: 23px;
+    width: 135px;
+    z-index: 0;
+    border-radius:5px;
+}
+.guideObject {
+    border: 2px dotted white;
+    height: 20px;
+    left: -680px;
+    position: absolute;
+    top: 0;
+    width: 780px;
+    z-index: 1000;
+}
+.guideObject {
+    visibility: hidden;
+}
+div.guideContainer:hover .guideObject {
+    visibility: visible;
+}
+/*--------------------------------------------*/
+.metaData_image img{
+    width: 250px;
+   
+   /*
+   height: 140px;
+  */
+}
+
+.metaData_title{
+  font-weight:bold;
+}
+/*--------------------------------------------*/
+
+
+.ui-tooltip, .arrow:after {
+    background: none repeat scroll 0 0 black;
+    border: 2px solid #666666;
+}
+.ui-tooltip {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 7px black;
+    color: white;
+    font:14px "Helvetica Neue",Sans-Serif;
+    padding: 10px 20px;
+}
+.arrow {
+    bottom: -16px;
+    height: 25px;
+    left: 105%;
+    margin-left: -35px;
+    overflow: hidden;
+    position: absolute;
+    top: 12px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    tranform: rotate(90deg);
+    width: 60px;
+}
+.arrow.top {
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    box-shadow: 6px 5px 9px -9px black;
+    content: "";
+    height: 25px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    tranform: rotate(-45deg);
+    width: 25px;
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+
+/*--------------------------------------------*/
