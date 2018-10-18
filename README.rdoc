@@ -1,4 +1,4 @@
-you need to creat client_secret.json file goto:
+you need to create client_secret.json file so goto:
 
 https://developers.google.com/youtube/v3/quickstart/ruby
 
@@ -6,7 +6,7 @@ to follow instructions and create client_secret.json and put it in the root dire
 
 Then run the rails server -p 80 and  open the browser goto 'http://localhost' and authenticate for the first time after that you won't have to worry about  authenticating again. 
 
-It stores the authenticating file in the 'home directory/.credentials/youtube-quickstart-ruby-credentials.yaml'
+It stores the authenticating file in the '(your home directory)/.credentials/youtube-quickstart-ruby-credentials.yaml'
 
 == Welcome to Rails
 
