@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f85b76d-1a36-4c01-b841-c2a1772b34bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f85b76d-1a36-4c01-b841-c2a1772b34bf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -82,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/mainpage_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+            <state relative-caret-position="184">
+              <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -375,15 +373,16 @@
       <workItem from="1539554152067" duration="5976000" />
       <workItem from="1539579358826" duration="11058000" />
       <workItem from="1539669693647" duration="3822000" />
-      <workItem from="1539747461885" duration="837000" />
+      <workItem from="1539747461885" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29347000" />
+    <option name="totallyTimeSpent" value="29411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.25746268" />
@@ -534,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/mainpage_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        <state relative-caret-position="184">
+          <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
         </state>
       </provider>
     </entry>
